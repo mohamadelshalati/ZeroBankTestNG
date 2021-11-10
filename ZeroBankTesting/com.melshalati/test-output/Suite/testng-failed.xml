@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="com.melshalati.testCases.DropDownMenu">
+        <methods>
+          <include name="closeAll"/>
+          <include name="dropDownMenu"/>
+          <include name="openBrowser"/>
+        </methods>
+      </class> <!-- com.melshalati.testCases.DropDownMenu -->
+      <class name="com.melshalati.testCases.CheckingStatements">
+        <methods>
+          <include name="checkingDifferentStatements"/>
+          <include name="openBrowser"/>
+          <include name="closeAll"/>
+        </methods>
+      </class> <!-- com.melshalati.testCases.CheckingStatements -->
+      <class name="com.melshalati.testCases.SwitchWindows">
+        <methods>
+          <include name="switchWindows"/>
+          <include name="closeAll"/>
+          <include name="openBrowser"/>
+        </methods>
+      </class> <!-- com.melshalati.testCases.SwitchWindows -->
+      <class name="com.melshalati.testCases.ClickingAPopUp">
+        <methods>
+          <include name="openBrowser"/>
+          <include name="clickAPopUp"/>
+          <include name="closeAll"/>
+        </methods>
+      </class> <!-- com.melshalati.testCases.ClickingAPopUp -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
